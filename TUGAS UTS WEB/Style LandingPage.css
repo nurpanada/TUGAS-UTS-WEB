@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD; /* Biru langit lembut */
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #1B5E20; /* Hijau tua, mencerminkan kesan formal dan alami */
+    color: #FFFFFF; /* Teks putih untuk kontras */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #A5D6A7; /* Hijau lembut untuk teks */
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #81C784; /* Hijau terang untuk efek hover */
+    border-radius: 5px;
+}
+
+.image-container {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Memastikan gambar memenuhi seluruh kontainer */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #1B5E20; /* Hijau tua untuk heading */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #66BB6A; /* Hijau cerah untuk tombol */
+    color: #FFFFFF; /* Teks putih untuk kontras */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #388E3C; /* Hijau lebih gelap untuk efek hover */
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}

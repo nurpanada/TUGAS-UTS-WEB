@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Siswa - Sekolah ABC</title>
+    <link rel="stylesheet" href="Siswa.css">
+</head>
+<body>
+    <header>
+        <h1>Data Siswa</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Daftar Siswa</h2>
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Usia</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Muh.Rofil</td>
+                    <td>10</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Dirwan</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nada</td>
+                    <td>11</td>
+                    <td>16</td>
+                </tr>
+            </table>
+
+            <h2>Tambah Siswa</h2>
+            <form action="#" method="post">
+                <input type="text" name="nama" placeholder="Nama" required>
+                <input type="text" name="kelas" placeholder="Kelas" required>
+                <input type="number" name="usia" placeholder="Usia" required>
+
+                <h3>Jenis Kelamin:</h3>
+                <label>
+                    <input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki
+                </label>
+                <label>
+                    <input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan
+                </label>
+
+                <button type="submit" class="btn">Tambah</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sekolah ABC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
